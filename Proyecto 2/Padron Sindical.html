@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Padron Sindical</title>
+     <!-- Dropdown Structure -->
+     <div class="navbar-fixed"> 
+
+      <nav class="light-blue darken-4">
+        <div class="nav-wrapper container">
+          <a href="Inicio.html" class="brand-logo left"><i class="material-icons">home</i></a>
+          <ul class="right">
+                  <li><a href="Archivo.html"><i class="material-icons left">attach_file</i>Archivo</a>
+                  </li>
+                  <li><a href="#" class="dropdown-trigger" data-target="drop_2">Programas
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                    <ul id="drop_2" class="dropdown-content">
+                      <li><a href="Federaciones.html">Federaciones</a></li>
+                      <li><a href="Organizaciones Sindicales.html">Organizaciones Sindicales</a></li>
+                      <li><a href="Secciones.html">Secciones</a></li>
+                      <li><a href="Sectores.html">Sectores</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" class="dropdown-trigger" data-target="drop_3">Centros de Trabajo
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                    <ul id="drop_3" class="dropdown-content">
+                      <li><a href="Centros de Trabajo.html">Centros de Trabajo</a></li>
+                      <li><a href="Socios o Afiliados.html">Socios o Afiliados</a></li>
+                      <li><a href="Zonas.html">Zonas</a></li>
+                      <li><a href="Coordinadores.html">Coordinadores</a></li>
+                      <li><a href="Asesores.html">Asesores</a></li>
+                      <li><a href="Grupos.html">Grupos</a></li>
+                      <li><a href="Usuarios.html">Usuarios</a></li>
+                      <li><a href="Estados.html">Estados</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" class="dropdown-trigger" data-target="drop_4">Procesos
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                    <ul id="drop_4" class="dropdown-content">
+                      <li><a href="#">Compactar y Reparar Base de Datos</a></li>
+                      <li><a href="#">Importar Socios</a></li>
+                      <li><a href="#">Recalcular Socios o Contratos</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" class="dropdown-trigger" data-target="drop_5">Reportes
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                    <ul id="drop_5" class="dropdown-content">
+                      <li><a href="Padron Sindical.html">Padron Sindical</a></li>
+                      <li><a href="Reporte por Sector Grupo Coordinador.html">Coordinador Sector Grupo</a></li>
+                      <li><a href="Reporte por Estado.html">Estado</a></li>
+                      <li><a href="Reporte por Asesor.html">Asesor</a></li>
+                      <li><a href="Reporte por Sector.html">Sector</a></li>
+                      <li><a href="Reporte por Sindicato y Estado.html">Sindicato y Estado</a></li>
+                      <li><a href="Reporte por Zona.html">Zona</a></li>
+                      <li><a href="Estatus del Contrato.html">Estatus del Contrato</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" class="dropdown-trigger" data-target="drop_6">Ver
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                    <ul id="drop_6" class="dropdown-content">
+                      <li><a href="#">Barra de herramientas</a></li>
+                      <li><a href="#">Barra de estado</a></li>
+                    </ul>
+                   </li>
+                   <li>
+                      <a href="#" class="dropdown-trigger" data-target="id_drop">Ayuda
+                        <i class="material-icons right">help</i>
+                      </a>
+                      <ul id="id_drop" class="dropdown-content">
+                        <li><a href="Contenido.html">Contenido</a></li>
+                        <li><a href="Preguntas.html">Buscar Ayuda</a></li>
+                        <li class="divider"></li>
+                        <li><a href="Nosotros.html">Acerca de...</a></li>
+                      </ul>
+                    </li>
+          </ul>
+        </div>
+      </nav>
+  
+</div>
+</head>
+<body>
+    <style>
+    body{
+        background-image: url(img/material4.png);
+    } 
+    </style>
+    <div class="section container">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row card-panel">
+                      <h4>N°. Cdt</h4>
+                      <div class="input-field col s3">
+                        <input type="text" id="Cdt" class="validate" required>
+                        <label for="nombre">N°. Cdt</label>
+                      </div>
+            
+                      <div class="input-field col s9" >
+                          <input type="text" id="Centro" class="validate" required>
+                          <label for="centro">Centro de Trabajo</label>
+                        </div>
+                        <div>
+                        <p>
+                          <label>
+                            <input name="group1" type="radio" checked />
+                            <span>Todos</span>
+                          </label>
+                              <label>
+                                <input name="group1" type="radio" checked />
+                                <span>Con Afiliacion</span>
+                              </label>
+                            <label>
+                              <input name="group1" type="radio" checked />
+                              <span>Sin Afiliacion</span>
+                            </label>
+                          </p>
+                        </div>
+                          <div class="input-field col s4">
+                            <input type="text" id="mes" class="validate" required>
+                            <label for="mes">Mes y Año de Vencimeinto</label>
+                          </div>
+                          <div class="input-field col s4" >
+                              <input type="text" id="tipo" class="validate" required>
+                              <label for="Tipo">Tipo de Contrato</label>
+                            </div>
+                            <div class="input-field col s4" >
+                              <input type="text" id="tipo" class="validate" required>
+                              <label for="Tipo">A que fecha</label>
+                            </div>
+                            <p>
+                              <label>
+                                <input name="group1" type="radio" checked />
+                                <span>Vista Previa</span>
+                              </label>
+                                  <label>
+                                    <input name="group1" type="radio" checked />
+                                    <span>Exportar(.xls)</span>
+                                  </label>
+                                <label>
+                                  <input name="group1" type="radio" checked />
+                                  <span>Exportar(.pdf)</span>
+                                </label>
+                                    <label>
+                                      <input name="group1" type="radio" checked />
+                                      <span>Exportar(.rtf)</span>
+                                    </label>
+                              </p>
+                              <div>
+                                  <a href="#" class="btn light-blue darken-3 waves-effect waves-ligth" type="submit">Imprimir
+                                    <i class="material-icons right">print</i>
+                                  </a>
+                              </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+      let sidenav = document.querySelectorAll('.sidenav');
+      let instancia_sidenav = M.Sidenav.init(sidenav,{});    
+      let dropdowns = document.querySelectorAll('.dropdown-trigger');
+      let instancia_dropwdown = M.Dropdown.init(dropdowns, {
+      hover:false});
+    });
+  
+  
+  
+          </script>
+
+
+
+    
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
